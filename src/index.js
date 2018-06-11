@@ -20,6 +20,9 @@ ReactDOM.render(
     <Counter onClick={() => {
       console.log(4444);
     }}>{100}</Counter>
+    <Counter onClick={() => {
+      console.log(5555);
+    }}>{50}</Counter>
   </div>
   ,
   document.getElementById('app')
